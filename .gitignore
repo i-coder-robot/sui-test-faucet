@@ -15,3 +15,4 @@
 # vendor/
 /.idea/
 /go.sum
+/conf/config的副本.yaml

@@ -1,0 +1,17 @@
+# 账号认证,从指定频道text_chanel_id 随机获取聊天内容时使用
+Authorization: 
+# 账号认证列表，多账号一起开的时候，可在列表中追加
+AuthorizationList:
+  - 
+# 获取聊天信息的频道id
+TextChannelId: 
+# 需要自动聊天的频道id，同时刷多个服务器，可在列表中追加
+ChannelIdList:
+  - 
+# 聊天脚本，script_mode_flg=Ture时使用
+ScriptTextList:
+  - 
+# 信息发送的间隔时间
+ChatIntervalTime: 120
+# Ture：脚本模式， False：从指定频道text_chanel_id 随机获取聊天内容
+ScriptModeFlag: true
